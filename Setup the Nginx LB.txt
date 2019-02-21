@@ -30,6 +30,8 @@ sudo docker ps
 
 Load Balancer Configuration:
 
+sudo apt-get update
+sudo apt-get upgrade -y
 sudo apt-get install nginx -y
 
 now open /etc/nginx/nginx.conf file and add your server details
