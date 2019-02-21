@@ -70,3 +70,8 @@ after adding the above lines in nginx conf file need to restart the nginx
 
 sudo systemctl restart nginx
 
+If you face any issues while restarting the Nginx run below cmd to know the reason
+
+nginx -t -c /etc/nginx/nginx.conf
+
+
